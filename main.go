@@ -16,12 +16,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Monibuca/utils/v3"
-	"github.com/Monibuca/utils/v3/codec/mpegts"
+	"github.com/wgsP/utils/v3"
+	"github.com/wgsP/utils/v3/codec/mpegts"
 
-	. "github.com/Monibuca/engine/v3"
-	. "github.com/Monibuca/plugin-ts/v3"
-	. "github.com/Monibuca/utils/v3"
+	. "github.com/wgsP/engine/v3"
+	. "github.com/wgsP/plugin-ts/v3"
+	. "github.com/wgsP/utils/v3"
 	"github.com/quangngotan95/go-m3u8/m3u8"
 )
 

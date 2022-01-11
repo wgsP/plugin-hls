@@ -3,8 +3,8 @@ package hls
 import (
 	"errors"
 
-	"github.com/Monibuca/utils/v3/codec"
-	"github.com/Monibuca/utils/v3/codec/mpegts"
+	"github.com/wgsP/utils/v3/codec"
+	"github.com/wgsP/utils/v3/codec/mpegts"
 )
 
 func AudioPacketToPESPreprocess(aacRaw []byte, aac_asc codec.AudioSpecificConfig) (data []byte, err error) {

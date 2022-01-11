@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"os"
 
-	"github.com/Monibuca/utils/v3/codec"
-	"github.com/Monibuca/utils/v3/codec/mpegts"
+	"github.com/wgsP/utils/v3/codec"
+	"github.com/wgsP/utils/v3/codec/mpegts"
 )
 
 func VideoPacketToPES(pts,dts uint32,nalus [][]byte, sps, pps []byte) (packet mpegts.MpegTsPESPacket, err error) {
